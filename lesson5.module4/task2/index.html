@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="index.css" />
+  <title>Browser</title>
+</head>
+
+<body>
+  <div class="main-wrap">
+   <div class=" main main-balance">
+    <h3>Баланс</h3>
+    <div class="balance"><span id="balance"></span></div>
+    <h3>Пиво</h3>
+    <div class="balance"><span id="beer"></span></div>
+    <h3>Вино</h3>
+    <div class="balance"><span id="wine"></span></div>
+    <h3>Пепсі</h3>
+    <div class="balance"><span id="pepsi"></span></div>
+   </div>
+
+
+   <div class="main main-count">
+    <h3>Кількість</h3>
+    <input type="text" class="count" id="count-product">
+  
+   <label for="beer"> <input type="radio" id="beer1" value="Пиво" name="options">Пиво</label>
+   
+   <label for="wine"><input type="radio" id="wine1" value="Вино" name="options">Вино</label>
+  
+   <label for="pepsi">  <input type="radio" id="pepsi1" value="Пепсі" name="options">Пепсі</label>
+   <div >
+    <button class="button-add" id="add">Додати</button>
+   </div>
+   <div class="list-product" id="ist-product1" ></div>
+   <div >
+    <button class="button-buy" id="buy-item">Купити</button>
+   </div>
+
+   </div>
+
+
+   <div class=" main main-result" id="main-result1"></div>
+  </div>
+
+
+
+
+
+  <script src="main.js" type="module" ></script>
+</body>
+
+</html>
